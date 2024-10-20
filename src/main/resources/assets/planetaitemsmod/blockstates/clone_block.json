@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "planetaitemsmod:block/clone_block", "uvlock": false },
+    "facing=east":  { "model": "planetaitemsmod:block/clone_block", "y":  90, "uvlock": false },
+    "facing=south": { "model": "planetaitemsmod:block/clone_block", "y": 180, "uvlock": false },
+    "facing=west":  { "model": "planetaitemsmod:block/clone_block", "y": 270, "uvlock": false }
+  }
+}

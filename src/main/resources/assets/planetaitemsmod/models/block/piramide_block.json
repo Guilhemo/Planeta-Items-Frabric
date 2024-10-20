@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+    "textures": {
+        "all": "planetaitemsmod:block/piramide_block_3d"
+    }
+}

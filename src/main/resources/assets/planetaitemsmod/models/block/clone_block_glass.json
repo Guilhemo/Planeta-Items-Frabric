@@ -1,0 +1,22 @@
+{
+	"render_type": "minecraft:translucent",
+	"parent": "block/cube",
+	"textures": {
+		"particle": "planetaitemsmod:block/clone_block_glass",
+		"all": "planetaitemsmod:block/clone_block_glass"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#all", "cullface": "false"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#all", "cullface": "false"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#all", "cullface": "false"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#all", "cullface": "false"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#all", "cullface": "false"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#all", "cullface": "false"}
+			}
+		}
+	]
+}

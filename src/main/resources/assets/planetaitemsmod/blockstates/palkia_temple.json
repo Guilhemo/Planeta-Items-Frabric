@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "planetaitemsmod:block/palkia_temple", "uvlock": false },
+    "facing=east":  { "model": "planetaitemsmod:block/palkia_temple", "y":  90, "uvlock": false },
+    "facing=south": { "model": "planetaitemsmod:block/palkia_temple", "y": 180, "uvlock": false },
+    "facing=west":  { "model": "planetaitemsmod:block/palkia_temple", "y": 270, "uvlock": false }
+  }
+}
