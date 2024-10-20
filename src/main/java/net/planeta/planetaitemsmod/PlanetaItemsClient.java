@@ -9,5 +9,6 @@ public class PlanetaItemsClient implements ClientModInitializer{
     @Override
     public void onInitializeClient() {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.CLONE_BLOCK, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.TROPHY_BIG, RenderLayer.getTranslucent());
     }
 }

@@ -161,6 +161,8 @@ public class ModItemGroups {
                         entries.add(ModItems.RARE_BACKPACK);
                         entries.add(ModItems.EPIC_BACKPACK);
                         entries.add(ModItems.LEGENDARY_BACKPACK);
+                        entries.add(ModBlocks.TROPHY_BIG);
+                        entries.add(ModBlocks.TROPHY_SMALL);
                     }).build());
 
     public static void registerItemGroups() {

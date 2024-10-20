@@ -69,6 +69,16 @@ public class ModBlockEntities {
                     FabricBlockEntityTypeBuilder.create(CloneBlockEntity::new,
                             ModBlocks.CLONE_BLOCK).build());
 
+    public static final BlockEntityType<CloneBlockEntity> TROPHY_BIG_ENTITY =
+            Registry.register(Registries.BLOCK_ENTITY_TYPE, new Identifier(PlanetaItems.MOD_ID, "trophy_big_entity"),
+                    FabricBlockEntityTypeBuilder.create(CloneBlockEntity::new,
+                            ModBlocks.TROPHY_BIG).build());
+
+    public static final BlockEntityType<CloneBlockEntity> TROPHY_SMALL_ENTITY =
+            Registry.register(Registries.BLOCK_ENTITY_TYPE, new Identifier(PlanetaItems.MOD_ID, "trophy_small_entity"),
+                    FabricBlockEntityTypeBuilder.create(CloneBlockEntity::new,
+                            ModBlocks.TROPHY_SMALL).build());
+
     /*public static final BlockEntityType<BaudafelicidadeBlockEntity> FELICIDADE_BLOCK_ENTITY =
             Registry.register(Registries.BLOCK_ENTITY_TYPE, new Identifier(PlanetaItems.MOD_ID, "felicidade_block_entity"),
                     FabricBlockEntityTypeBuilder.create(BaudafelicidadeBlockEntity::new,
