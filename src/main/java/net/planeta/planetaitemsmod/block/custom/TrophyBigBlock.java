@@ -14,7 +14,7 @@ import net.planeta.planetaitemsmod.block.entity.TrophyBigBlockEntity;
 import org.jetbrains.annotations.Nullable;
 
 public class TrophyBigBlock extends HorizontalFacingBlock implements BlockEntityProvider {
-    private static final VoxelShape SHAPE = createCuboidShape(0, 0, 0, 16, 16, 16);
+    private static final VoxelShape SHAPE = createCuboidShape(0, 0, 0, 16, 22, 16);
 
     // Adicione uma propriedade para representar se o vidro é transparente
     public static final BooleanProperty TRANSLUCENT = BooleanProperty.of("translucent");

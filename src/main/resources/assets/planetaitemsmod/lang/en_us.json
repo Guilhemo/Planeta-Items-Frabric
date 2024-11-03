@@ -55,14 +55,14 @@
   "item.planetaitemsmod.fly_ticket": "Fly Ticket",
   "item.planetaitemsmod.safari_ticket": "Safari Ticket",
   "item.planetaitemsmod.elite_ticket": "Elite 4 Ticket",
-  "item.planetaitemsmod.ball_change": "Pokeball Selector",
-  "item.planetaitemsmod.nature_change": "Nature Selector",
-  "item.planetaitemsmod.common_backpack": "Common Backpack",
-  "item.planetaitemsmod.uncommon_backpack": "Uncommon Backpack",
-  "item.planetaitemsmod.rare_backpack": "Rare Backpack",
-  "item.planetaitemsmod.epic_backpack": "Epic Backpack",
-  "item.planetaitemsmod.legendary_backpack": "Legendary Backpack",
+  "item.planetaitemsmod.common_bp": "Common Backpack",
+  "item.planetaitemsmod.uncommon_bp": "Uncommon Backpack",
+  "item.planetaitemsmod.rare_bp": "Rare Backpack",
+  "item.planetaitemsmod.epic_bp": "Epic Backpack",
+  "item.planetaitemsmod.legendary_bp": "Legendary Backpack",
   "block.planetaitemsmod.trophy_big": "Stellar Champion Trophy",
   "block.planetaitemsmod.trophy_small": "tournament champion trophy",
-  "item.planetaitemsmod.key": "Key"
+  "item.planetaitemsmod.key": "Key",
+  "item.planetaitemsmod.ampulheta": "Hourglass",
+  "item.planetaitemsmod.incubadora": "Incubator"
 }

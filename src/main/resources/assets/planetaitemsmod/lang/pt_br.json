@@ -55,14 +55,14 @@
   "item.planetaitemsmod.fly_ticket": "Ticket de Voo",
   "item.planetaitemsmod.safari_ticket": "Ticket do Safari",
   "item.planetaitemsmod.elite_ticket": "Ticket do Elite 4",
-  "item.planetaitemsmod.ball_change": "Seleção de Pokebola",
-  "item.planetaitemsmod.nature_change": "Seleção de Natureza",
-  "item.planetaitemsmod.common_backpack": "Mochila Comum",
-  "item.planetaitemsmod.uncommon_backpack": "Mochila Incomum",
-  "item.planetaitemsmod.rare_backpack": "Mochila Rara",
-  "item.planetaitemsmod.epic_backpack": "Mochila Épica",
-  "item.planetaitemsmod.legendary_backpack": "Mochila Lendária",
+  "item.planetaitemsmod.common_bp": "Mochila Comum",
+  "item.planetaitemsmod.uncommon_bp": "Mochila Incomum",
+  "item.planetaitemsmod.rare_bp": "Mochila Rara",
+  "item.planetaitemsmod.epic_bp": "Mochila Épica",
+  "item.planetaitemsmod.legendary_bp": "Mochila Lendária",
   "block.planetaitemsmod.trophy_big": "Troféu do Campeão Estelar",
   "block.planetaitemsmod.trophy_small": "Troféu do Campeão do Torneio",
-  "item.planetaitemsmod.key": "Chave"
+  "item.planetaitemsmod.key": "Chave",
+  "item.planetaitemsmod.ampulheta": "Ampulheta",
+  "item.planetaitemsmod.incubadora": "Incubadora"
 }
