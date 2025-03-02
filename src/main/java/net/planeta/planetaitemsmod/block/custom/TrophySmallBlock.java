@@ -1,5 +1,6 @@
 package net.planeta.planetaitemsmod.block.custom;
 
+import com.mojang.serialization.MapCodec;
 import net.minecraft.block.*;
 import net.minecraft.block.entity.BlockEntity;
 import net.minecraft.item.ItemPlacementContext;
@@ -14,7 +15,7 @@ import net.planeta.planetaitemsmod.block.entity.TrophySmallBlockEntity;
 import org.jetbrains.annotations.Nullable;
 
 public class TrophySmallBlock extends HorizontalFacingBlock implements BlockEntityProvider {
-    private static final VoxelShape SHAPE = createCuboidShape(0, 0, 0, 16, 16, 16);
+    private static final VoxelShape SHAPE = createCuboidShape(5, 0, 5, 11, 14, 11);
 
     // Adicione uma propriedade para representar se o vidro é transparente
     public static final BooleanProperty TRANSLUCENT = BooleanProperty.of("translucent");
@@ -22,6 +23,11 @@ public class TrophySmallBlock extends HorizontalFacingBlock implements BlockEnti
     public TrophySmallBlock(Settings settings) {
         super(settings);
         setDefaultState(getDefaultState().with(FACING, Direction.NORTH).with(TRANSLUCENT, false));
+    }
+
+    @Override
+    protected MapCodec<? extends HorizontalFacingBlock> getCodec() {
+        return null;
     }
 
     @Override

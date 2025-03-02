@@ -1,5 +1,6 @@
 package net.planeta.planetaitemsmod.block.custom;
 
+import com.mojang.serialization.MapCodec;
 import net.minecraft.block.*;
 import net.minecraft.block.entity.BlockEntity;
 import net.minecraft.item.ItemPlacementContext;
@@ -31,6 +32,11 @@ public class CloneBlock extends HorizontalFacingBlock implements BlockEntityProv
         setDefaultState(getDefaultState().with(FACING, Direction.NORTH).with(TRANSLUCENT, false));
     }
 
+    @Override
+    protected MapCodec<? extends HorizontalFacingBlock> getCodec() {
+        return null;
+    }
+
 
     @Override
     public BlockRenderType getRenderType(BlockState state) {
@@ -51,7 +57,7 @@ public class CloneBlock extends HorizontalFacingBlock implements BlockEntityProv
 
     @Override
     public BlockState getPlacementState(ItemPlacementContext ctx) {
-        return super.getPlacementState(ctx).with(FACING, ctx.getHorizontalPlayerFacing()).with(TRANSLUCENT, false);
+        return super.getPlacementState(ctx).with(FACING, ctx.getHorizontalPlayerFacing().getOpposite()).with(TRANSLUCENT, false);
     }
 
 }

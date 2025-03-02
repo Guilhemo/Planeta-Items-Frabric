@@ -1,5 +1,6 @@
 package net.planeta.planetaitemsmod.block.custom;
 
+import com.mojang.serialization.MapCodec;
 import net.minecraft.block.*;
 import net.minecraft.block.entity.BlockEntity;
 import net.minecraft.item.ItemPlacementContext;
@@ -22,6 +23,11 @@ public class TrophyBigBlock extends HorizontalFacingBlock implements BlockEntity
     public TrophyBigBlock(Settings settings) {
         super(settings);
         setDefaultState(getDefaultState().with(FACING, Direction.NORTH).with(TRANSLUCENT, false));
+    }
+
+    @Override
+    protected MapCodec<? extends HorizontalFacingBlock> getCodec() {
+        return null;
     }
 
     @Override
